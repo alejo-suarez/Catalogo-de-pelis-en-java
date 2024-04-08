@@ -1,28 +1,28 @@
 package domain;
 
 public class Peliculas {
-    private String nombre;
+    private String nombreArchivo;
 
 //Constructor Vacio:
     public Peliculas(){
     }
     
     //Constructor para inicalizar:
-    public Peliculas(String nombre){
-        this.nombre = nombre;
+    public Peliculas(String nombreArchivo){
+        this.nombreArchivo = nombreArchivo;
     }
 
     public String getNombre() {
-        return nombre;
+        return nombreArchivo;
     }
 
     public void setNombre(String nombre) {
-        this.nombre = nombre;
+        this.nombreArchivo = nombreArchivo;
     }
 
     @Override
     public String toString() {
-        return "Peliculas{" + "nombre=" + nombre + '}';
+        return "Peliculas{" + "nombre=" + nombreArchivo + '}';
     }
     
 }
