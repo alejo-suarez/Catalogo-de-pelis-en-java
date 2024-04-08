@@ -16,8 +16,7 @@ public class TestExcepcion {
         } catch (Exception e){
             System.out.println("Error en Escritura de datos...");
         
-       
-                      
+//modificacion enrique
 //Solo para el mensaje de error;
             System.out.println(e.getMessage());
             
